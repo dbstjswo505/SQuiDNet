@@ -5,6 +5,6 @@ Video moment retrieval (VMR) aims to localize target moments in untrimmed videos
 
 SQuiDNet is proposed to debiasing in video moment retrieval via conjugating retrieval bias in either positive or negative way.
 
-![Introduction](.figs/Intro.PNG)
+![Introduction](./figs/Intro.PNG)
 
 
