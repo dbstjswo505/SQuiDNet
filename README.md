@@ -16,3 +16,12 @@ SQuiDNet is composed of 3 modules: (a) BMR which reveals biased retrieval, (b) N
 	<img src="./figs/Model.PNG" alt="Model" width="80%" height="80%"/>
 </P>
 
+## Implementation
+### Setting
+1. Clone the repositery
+
+```
+git clone Here.git
+cd SQuiDNet
+```
+
