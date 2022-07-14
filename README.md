@@ -6,5 +6,13 @@ Video moment retrieval (VMR) aims to localize target moments in untrimmed videos
 SQuiDNet is proposed to debiasing in video moment retrieval via conjugating retrieval bias in either positive or negative way.
 
 <p lign="center">
-	<img src="./figs/Intro.pdf" alt="Intro" width="80%" height="80%"/>
+	<img src="./figs/Intro.PNG" alt="Intro" width="80%" height="80%"/>
 </P>
+
+## SQuiDNet Overview
+SQuiDNet is composed of 3 modules: (a) BMR which reveals biased retrieval, (b) NMR which performs accurate retrieval, (c) SQuiD which removes bad biases from accurate retrieval of NMR subject to the meaning of query.
+
+<p lign="center">
+	<img src="./figs/Model.PNG" alt="Model" width="80%" height="80%"/>
+</P>
+
