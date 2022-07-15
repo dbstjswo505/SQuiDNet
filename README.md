@@ -37,9 +37,10 @@ Download [tvr_feature_dataset](https://drive.google.com/file/d/102c4MXjxE4XRhrIk
 ├── sub_query_feature
 │   ├── roberta_query
 │   └── roberta_sub
+├── video_feature
+│   └── resnet_slowfast_1.5
 ├── text_data_ref
-└── video_feature
-    └── resnet_slowfast_1.5
+└── coocurrence_table
 ```
 
 
