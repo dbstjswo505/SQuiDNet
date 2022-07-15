@@ -46,5 +46,13 @@ Feature extraction is available via understanding and running the code details: 
 
 
 
+## Acknowledgement
+This code borrowed components from the following projects:
+[TVRetrieval](https://github.com/jayleicn/TVRetrieval),
+[HERO](https://github.com/linjieli222/HERO/),
+[HuggingFace](https://github.com/huggingface/transformers),
+[MMT](https://github.com/gabeur/mmt),
+[MME](https://github.com/antoine77340/Mixture-of-Embedding-Experts).
+We thank the authors for open-sourcing these great projects!
 
 
