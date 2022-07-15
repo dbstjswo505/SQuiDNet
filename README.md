@@ -17,14 +17,13 @@ SQuiDNet is composed of 3 modules: (a) BMR which reveals biased retrieval, (b) N
 </P>
 
 ## Implementation
-### Setting
 1. Clone the repositery
 
 ```
 git clone https://github.com/dbstjswo505/SQuiDNet.git
 cd SQuiDNet
 ```
-2. Features Download
+2. Input Features Download
 
 Download [tvr_feature_dataset](https://drive.google.com/file/d/102c4MXjxE4XRhrIklKY-vAGsGviEgjmL/view?usp=sharing), which should be located in the main folder SQuiDNet with the directory like below:
 
@@ -42,8 +41,8 @@ data
 ├── text_data_ref
 └── coocurrence_table
 ```
-
-
+It is also available to download visual features (ResNet, SlowFast) obtained from [HERO](https://github.com/linjieli222/HERO/) authors and text features (subtitle and query, from fine-tuned RoBERTa) obtained from [XML](https://github.com/jayleicn/TVRetrieval) authors.
+Feature extraction is available via understanding and running the code details: [visual feature extraction](https://github.com/linjieli222/HERO_Video_Feature_Extractor), [text feature extraction](https://github.com/jayleicn/TVRetrieval/tree/master/utils/text_feature).
 
 
 
