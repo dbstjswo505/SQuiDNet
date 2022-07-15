@@ -46,18 +46,13 @@ It is also available to download visual features (ResNet, SlowFast) obtained fro
 Feature extraction is available via understanding and running the code details: [visual feature extraction](https://github.com/linjieli222/HERO_Video_Feature_Extractor), [text feature extraction](https://github.com/jayleicn/TVRetrieval/tree/master/utils/text_feature).
 The noun and predicate for coocurrence table are extracted using the code: [noun and predicate extraction](https://github.com/BigRedT/info-ground).
 
-2. SQuiDNet Training
+2. SQuiDNet Training and Inference.
 
 ```
 bash scripts/train.sh
-```
-`train.sh` is performed with our defined hyperparameters, see the details in the code and is possible to modified experiement for more better performances including hyperparameter tunning.
-
-3. SQuiDNet Inference
-
-```
 bash scripts/inference.sh
 ```
+`train.sh` is performed with our defined hyperparameters, see the details in the code and is possible to modified experiement for more better performances including hyperparameter tunning.
 `inference.sh` is also performed with our defined hyperparameters and also hold the details in the code. Current settings are fixed on all the tasks including VCMR, SVMR and VR.
 
 ## Acknowledgement
