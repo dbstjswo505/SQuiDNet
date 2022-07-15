@@ -17,6 +17,7 @@ SQuiDNet is composed of 3 modules: (a) BMR which reveals biased retrieval, (b) N
 </P>
 
 ## Implementation
+Our results and further studies will also be updated soon!
 1. Clone the repositery
 
 ```
