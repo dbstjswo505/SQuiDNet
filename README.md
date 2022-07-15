@@ -43,7 +43,7 @@ data
 ```
 It is also available to download visual features (ResNet, SlowFast) obtained from [HERO](https://github.com/linjieli222/HERO/) authors and text features (subtitle and query, from fine-tuned RoBERTa) obtained from [XML](https://github.com/jayleicn/TVRetrieval) authors.
 Feature extraction is available via understanding and running the code details: [visual feature extraction](https://github.com/linjieli222/HERO_Video_Feature_Extractor), [text feature extraction](https://github.com/jayleicn/TVRetrieval/tree/master/utils/text_feature).
-
+The noun and predicate from query are extracted using the code: [noun and predicate extraction](https://github.com/BigRedT/info-ground).
 
 
 ## Acknowledgement
