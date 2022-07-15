@@ -60,6 +60,12 @@ bash scripts/inference.sh
 ```
 `inference.sh` is also performed with our defined hyperparameters and also hold the details in the code. Current settings are fixed on all the tasks including VCMR, SVMR and VR.
 
+5. Build Coocurrence Table
+```
+python mk_table.py
+```
+To design own your coocurrence table, you can adjust the 'cctable.json' file by running the code `./data/coocurrence_table/mk_table.py`.
+
 ## Acknowledgement
 This code is implemented on top of following contributions:
 [TVRetrieval](https://github.com/jayleicn/TVRetrieval),
