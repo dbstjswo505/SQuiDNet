@@ -33,7 +33,6 @@ Download [tvr_feature_dataset](https://drive.google.com/file/d/102c4MXjxE4XRhrIk
 │   ├── bmr_prd_test_public_tvr
 │   ├── bmr_prd_train_tvr
 │   └── bmr_prd_val_tvr
-├── coocurrence_table
 ├── sub_query_feature
 │   ├── roberta_query
 │   └── roberta_sub
