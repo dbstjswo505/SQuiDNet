@@ -26,5 +26,31 @@ cd SQuiDNet
 ```
 2. Features Download
 
-Download [tvr_feature_release_dataset](https://drive.google.com/file/d/102c4MXjxE4XRhrIklKY-vAGsGviEgjmL/view?usp=sharing)
+Download [tvr_feature_dataset](https://drive.google.com/file/d/102c4MXjxE4XRhrIklKY-vAGsGviEgjmL/view?usp=sharing), which should be located in the main folder SQuiDNet with the directory like below:
+
+```
+├── bmr
+│   ├── bmr_prd_test_public_tvr
+│   ├── bmr_prd_train_tvr
+│   └── bmr_prd_val_tvr
+├── coocurrence_table
+│   └── cctable.json
+├── sub_query_feature
+│   ├── roberta_query
+│   └── roberta_sub
+├── text_data_ref
+│   ├── tvr_train_release.jsonl
+│   ├── tvr_train_release_noun_predicate.jsonl
+│   ├── tvr_val_release.jsonl
+│   ├── tvr_val_release_noun_predicate.jsonl
+│   └── tvr_test_public_release.jsonl
+└── video_feature
+    └── resnet_slowfast_1.5
+```
+
+
+
+
+
+
 
