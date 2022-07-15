@@ -64,7 +64,7 @@ bash scripts/inference.sh
 ```
 python mk_table.py
 ```
-To design own your coocurrence table, you can adjust the 'cctable.json' file by running the code `./data/coocurrence_table/mk_table.py`.
+To design own your coocurrence table, you can adjust the 'cctable.json' file by running the code `./data/coocurrence_table/mk_table.py`, which updates the `cctable.json` file.
 
 ## Acknowledgement
 This code is implemented on top of following contributions:
