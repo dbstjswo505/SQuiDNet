@@ -53,6 +53,13 @@ bash scripts/train.sh
 ```
 `train.sh` is performed with our defined hyperparameters, see the details in the code and is possible to modified experiement for more better performances including hyperparameter tunning.
 
+3. SQuiDNet Inference
+
+```
+bash scripts/inference.sh
+```
+`inference.sh` is also performed with our defined hyperparameters and also hold the details in the code. Current settings are fixed on all the tasks including VCMR, SVMR and VR.
+
 ## Acknowledgement
 This code is implemented on top of following contributions:
 [TVRetrieval](https://github.com/jayleicn/TVRetrieval),
