@@ -51,7 +51,7 @@ The noun and predicate for coocurrence table are extracted using the code: [noun
 ```
 bash scripts/train.sh
 ```
-`train.sh` is performed with our defined hyperparameters, see the details in the code and is possible to modified experiement for more better performances.
+`train.sh` is performed with our defined hyperparameters, see the details in the code and is possible to modified experiement for more better performances. (we didn't perform much of hyperparameter tunning.)
 
 ## Acknowledgement
 This code is implemented on top of following contributions:
