@@ -24,4 +24,7 @@ SQuiDNet is composed of 3 modules: (a) BMR which reveals biased retrieval, (b) N
 git clone https://github.com/dbstjswo505/SQuiDNet.git
 cd SQuiDNet
 ```
+2. Features Download
+
+Download [tvr_feature_release_dataset](https://drive.google.com/file/d/102c4MXjxE4XRhrIklKY-vAGsGviEgjmL/view?usp=sharing)
 
