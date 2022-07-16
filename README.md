@@ -24,7 +24,15 @@ Our results and further studies will also be updated soon!
 git clone https://github.com/dbstjswo505/SQuiDNet.git
 cd SQuiDNet
 ```
-2. Input Features Download
+
+2. Prepare the environment
+```
+conda env create -f squid.yml
+conda activate squid
+```
+
+
+3. Input Features Download
 
 Download [tvr_feature_dataset](https://drive.google.com/file/d/102c4MXjxE4XRhrIklKY-vAGsGviEgjmL/view?usp=sharing), which should be located in the main folder SQuiDNet with the directory like below:
 
@@ -46,14 +54,14 @@ It is also available to download visual features (ResNet, SlowFast) obtained fro
 Feature extraction is available via understanding and running the code details: [visual feature extraction](https://github.com/linjieli222/HERO_Video_Feature_Extractor), [text feature extraction](https://github.com/jayleicn/TVRetrieval/tree/master/utils/text_feature).
 The noun and predicate for coocurrence table are extracted using the code: [noun and predicate extraction](https://github.com/BigRedT/info-ground).
 
-3. SQuiDNet Training
+4. SQuiDNet Training
 
 ```
 bash scripts/train.sh
 ```
 `train.sh` is performed with our defined hyperparameters, see the details in the code and is possible to modified experiement for more better performances including hyperparameter tunning.
 
-4. SQuiDNet Inference.
+5. SQuiDNet Inference.
 
 ```
 bash scripts/inference.sh
