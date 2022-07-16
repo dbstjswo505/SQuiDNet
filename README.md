@@ -34,7 +34,7 @@ conda activate squid
 
 3. Input Features Download
 
-Download [tvr_feature_dataset](https://drive.google.com/file/d/102c4MXjxE4XRhrIklKY-vAGsGviEgjmL/view?usp=sharing), which should be located in the main folder SQuiDNet with the directory like below:
+Download [tvr_feature_dataset](https://drive.google.com/file/d/1AfmhROqBPlT49jfU0gyyv2Eyl9XNHkCp/view?usp=sharing), which should be located in the main folder SQuiDNet with the directory like below:
 
 ```
 data
