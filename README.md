@@ -74,6 +74,7 @@ This code is implemented on top of following contributions:
 [Info-ground](https://github.com/BigRedT/info-ground),
 [NetVLAD](https://github.com/Relja/netvlad)
 [VLANet](https://arxiv.org/abs/2008.10238)
+[CONQUER](https://github.com/houzhijian/CONQUER)
 [MMT](https://github.com/gabeur/mmt),
 [MME](https://github.com/antoine77340/Mixture-of-Embedding-Experts).
 We thank the authors for open-sourcing these great projects and papers!

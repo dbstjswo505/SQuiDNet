@@ -1,0 +1,14 @@
+{
+  "data_path": "./data",
+  "query_path": "sub_query_feature/roberta_query",
+  "sub_path": "sub_query_feature/roberta_sub",
+  "vid_path": "video_feature/resnet_slowfast_1.5",
+  "train_data_path": "text_data_ref/tvr_train_release_noun_predicate.jsonl",
+  "eval_data_path": "text_data_ref/tvr_val_release_noun_predicate.jsonl",
+  "test_data_path": "text_data_ref/tvr_test_public_release.jsonl",
+  "train_bmr_path": "bmr/bmr_prd_train_tvr",
+  "eval_bmr_path": "bmr/bmr_prd_val_tvr",
+  "test_bmr_path": "bmr/bmr_prd_test_public_tvr",
+  "video_duration_idx_path": "text_data_ref/tvr_video2dur_idx.json",
+  "cctable_path": "coocurrence_table/cctable_update.json"
+}
