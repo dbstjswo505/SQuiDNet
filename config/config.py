@@ -66,8 +66,8 @@ class SharedOpt(object):
         self.parser.add_argument("--lw_st_ed", type=float, default=0.01, help="weight for moment level loss")
         self.parser.add_argument("--lw_vid", type=float, default=0.005, help="weight for video level loss")
         self.parser.add_argument("--lr_mul", type=float, default=1, help="Learning rate multiplier for backbone")
-        self.parser.add_argument("--bmr_allowance", type=int, default=1000, help="candidate for contrastive learninig to be used as positive or negativ")
-        self.parser.add_argument("--neg_bmr_pred_num", type=int, default=3, help="multiple predictions of bmr can be used in contrastive learning")
+        self.parser.add_argument("--bmr_allowance", type=int, default=500, help="candidate for contrastive learninig to be used as positive or negativ")
+        self.parser.add_argument("--neg_bmr_pred_num", type=int, default=15, help="multiple predictions of bmr can be used in contrastive learning")
 
         ## configuration: evaluation vcmr
         self.parser.add_argument("--loss_measure",type=str, choices=["moment", "moment_video"], default="moment", help="types of losses")
