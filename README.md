@@ -1,5 +1,9 @@
 # SQuiDNet: Selective Query-guided Debiasing Network for Video Corpus Moment Retrieval
 
+We are providing the Code for ECCV 2022 paper "Selective Query-guided Debiasing for Video Corpus Moment Retrieval"
+
+Author: "Sunjae Yoon, Ji Woo Hong, Eunseop Yoon, Dahyun Kim, Junyoeng Kim, Hee Suk Yoon and Chang D. Yoo
+
 ## Task: Video Corpus Moment Retrieval
 Video moment retrieval (VMR) aims to localize target moments in untrimmed videos pertinent to given textual query. Existing retrieval systems tend to rely on retrieval bias as a shortcut and thus, fail to sufficiently learn multi-modal interactions between query and video.
 
