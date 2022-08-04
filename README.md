@@ -91,4 +91,14 @@ This code is implemented on top of following contributions:
 [MME](https://github.com/antoine77340/Mixture-of-Embedding-Experts).
 We thank the authors for open-sourcing these great projects and papers!
 
+## Citation
+If you find this code useful for your research, please cite our paper:
+```
+@inproceedings{hou2020conquer,
+  title={SQuiDNet: Selective Query-guided Debiasing Network for Video Corpus Moment Retrieval},
+  author={Sunjae Yoon, Ji Woo Hong, Eunseop Yoon, Dahyun Kim, Juneyeong Kim, Hee Suk Yoon and Chang D. Yoo},
+  booktitle={Proceedings of the European Conference on Computer Vision},
+  year={2022}
+}
+```
 
