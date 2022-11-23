@@ -91,6 +91,17 @@ This code is implemented on top of following contributions:
 [MME](https://github.com/antoine77340/Mixture-of-Embedding-Experts).
 We thank the authors for open-sourcing these great projects and papers!
 
+This work was partly supported by Institute for Information & communications Technology Promotion(IITP) grant funded by the Korea government(MSIT) (No. 2021-0-01381, Development of Causal AI through Video Understanding) and partly supported by Institute of Information & communications Technology Planning & Evaluation(IITP) grant funded by the Korea government(MSIT) (No. 2022-0-00184, Development and Study of AITechnologies to Inexpensively Conform to Evolving Policy on Ethics)
+
 ## Citation
 If you find this code useful for your research, please cite our paper:
-
+```
+@inproceedings{yoon2022selective,
+  title={Selective Query-Guided Debiasing for Video Corpus Moment Retrieval},
+  author={Yoon, Sunjae and Hong, Ji Woo and Yoon, Eunseop and Kim, Dahyun and Kim, Junyeong and Yoon, Hee Suk and Yoo, Chang D},
+  booktitle={European Conference on Computer Vision},
+  pages={185--200},
+  year={2022},
+  organization={Springer}
+}
+```
